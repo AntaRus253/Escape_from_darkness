@@ -130,4 +130,13 @@ public class Controller : MonoBehaviour
     {
         readyToJump = true;
     }
+
+    private void OnControllerColliderHit(ControllerColliderHit hit) {
+        if (hit.gameObject.CompareTag("DestructiblePlatform")) {
+            DestructiblePlatform platform = hit.gameObject.GetComponent<DestructiblePlatform>();
+            if (platform != null) {
+                platform.StartDestruction();
+            }
+        }
+    }
 }
