@@ -4,7 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+<<<<<<< HEAD
   - DestructiblePlatform
+=======
+  - finish
+>>>>>>> Code
   layers:
   - Default
   - TransparentFX
@@ -17,7 +21,7 @@ TagManager:
   - 
   - 
   - whatIsGround
-  - 
+  - finish
   - 
   - 
   - 
