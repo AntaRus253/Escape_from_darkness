@@ -43,6 +43,8 @@ public class Controller : MonoBehaviour
     private void Start()
     {
         characterController = GetComponent<CharacterController>();
+        Time.timeScale = 1;
+        Debug.Log("start");
     }
     private void Update()
     {

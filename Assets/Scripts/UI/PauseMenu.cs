@@ -8,23 +8,45 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     private bool pauseGame;
+    public bool winGame;
     [SerializeField] private GameObject pauseGameMenu;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (!winGame)
         {
-            if (pauseGame)
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                Resume();
-            }
-            else
-            {
-                Pause();
+                if (pauseGame)
+                {
+                    Resume();
+                }
+                else
+                {
+                    Pause();
+                }
             }
         }
     }
 
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(PlayerPrefs.GetInt("MaxLevelComplite"));
+    }
+
+    public void GameWin()
+    {
+        winGame = true;
+    }
+
+    public void OpenOptions()
+    {
+        pauseGameMenu.SetActive(true);
+        Time.timeScale = 0f;
+        pauseGame = true; 
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
     public void Resume()
     {
         pauseGameMenu.SetActive(false);
