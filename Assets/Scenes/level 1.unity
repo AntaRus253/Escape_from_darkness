@@ -298,8 +298,6 @@ GameObject:
   - component: {fileID: 102335755}
   - component: {fileID: 102335754}
   - component: {fileID: 102335753}
-  - component: {fileID: 102335752}
-  - component: {fileID: 102335751}
   m_Layer: 0
   m_Name: wall (3)
   m_TagString: Untagged
@@ -322,33 +320,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 799571709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &102335751
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102335749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2309eb05632aed4b86c6049d18cf485, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneToLoad: 1
---- !u!114 &102335752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 102335749}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34c30c20c616fad44bb33bf53d5fb549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  selectedAxis: 2
-  speed: 7
 --- !u!65 &102335753
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6713,7 +6684,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   selectedAxis: 2
-  speed: -7
+  speed: -5
 --- !u!1001 &1357934763
 PrefabInstance:
   m_ObjectHideFlags: 0
