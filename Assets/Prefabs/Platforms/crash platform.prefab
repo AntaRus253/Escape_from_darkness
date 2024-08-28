@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8756739862664642750}
   - component: {fileID: 3501904743229404678}
   m_Layer: 10
-  m_Name: breaking platform
+  m_Name: crash platform
   m_TagString: DestructiblePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -48,6 +48,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
+  additionalDelayAfterSound: 5
+  destructionSound: {fileID: 0}
 --- !u!33 &5258188067943621492
 MeshFilter:
   m_ObjectHideFlags: 0
