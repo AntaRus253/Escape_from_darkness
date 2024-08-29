@@ -1335,7 +1335,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &351804169
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1735,7 +1736,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &434006244
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1887,7 +1889,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!1 &491363230
 GameObject:
   m_ObjectHideFlags: 0
@@ -2143,7 +2144,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &496894591
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2712,7 +2714,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!4 &593440545 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1449156026891512229, guid: f0a42bcf5d3cea445941fe7b41e149ec,
@@ -3314,7 +3315,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &695070007
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3852,7 +3854,6 @@ Transform:
   - {fileID: 1907212457}
   - {fileID: 496894586}
   - {fileID: 1872025019}
-  - {fileID: 929748262}
   - {fileID: 1034512567}
   - {fileID: 1130823452}
   - {fileID: 1968236273}
@@ -4001,7 +4002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -4360,7 +4360,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &861792153
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4711,7 +4712,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &869140663
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5037,13 +5039,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 929748262}
-  - component: {fileID: 929748267}
   - component: {fileID: 929748266}
   - component: {fileID: 929748265}
   - component: {fileID: 929748264}
   - component: {fileID: 929748263}
+  - component: {fileID: 929748267}
   m_Layer: 10
-  m_Name: Cube (43)
+  m_Name: "\u042D\u0422\u041E \u0421\u0414\u0415\u041B\u0410\u0422\u042C \u041F\u0420\u0415\u0424\u0410\u0411\u041E\u041C
+    !!!!"
   m_TagString: DestructiblePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5058,11 +5061,11 @@ Transform:
   m_GameObject: {fileID: 929748261}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 32.23, y: -4.92, z: -65.1}
+  m_LocalPosition: {x: 15.042999, y: 1.5886865, z: -33.759113}
   m_LocalScale: {x: 4.3976, y: 0.53464514, z: 4.0134}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 799571709}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &929748263
 AudioSource:
@@ -5075,7 +5078,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -5084,7 +5087,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 3.0501318
+  MinDistance: 2.8387833
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -5245,7 +5248,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 3
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound2: {fileID: 8300000, guid: 6293cf15832eeb648a53851d4fcf505a, type: 3}
 --- !u!4 &936227419 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0399ba23af43cd40b471fcbb3dfa794,
@@ -6841,7 +6845,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!65 &1230965408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6934,7 +6937,7 @@ PrefabInstance:
     - target: {fileID: 7939835513076388640, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.9305816
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7939835513076388640, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
         type: 3}
@@ -7097,7 +7100,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!1 &1308195709
 GameObject:
   m_ObjectHideFlags: 0
@@ -7564,7 +7566,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!114 &1321161743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8226,7 +8227,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!1 &1454718630
 GameObject:
   m_ObjectHideFlags: 0
@@ -8869,7 +8869,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &1575706644
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9938,7 +9939,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &1740257100
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10077,7 +10079,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
 --- !u!82 &1753446139
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10880,7 +10881,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &1872025024
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11098,7 +11100,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &1907212462
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11686,7 +11689,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!65 &1937211788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11929,7 +11931,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!65 &1965482896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12020,7 +12021,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
 --- !u!4 &1967867161 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1449156026891512229, guid: f0a42bcf5d3cea445941fe7b41e149ec,
@@ -12291,7 +12291,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
 --- !u!82 &1996930449
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12856,7 +12855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
   additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!82 &2098781899
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12964,4 +12964,5 @@ SceneRoots:
   - {fileID: 799571709}
   - {fileID: 360014417}
   - {fileID: 1321161739}
+  - {fileID: 929748262}
   - {fileID: 1243958265}
