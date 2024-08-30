@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
     private bool pauseGame;
     public bool winGame;
     [SerializeField] private GameObject pauseGameMenu;
+    [SerializeField] private GameObject deathMenu;
 
     private void Update()
     {
@@ -27,6 +28,15 @@ public class PauseMenu : MonoBehaviour
                 }
             }
         }
+    }
+
+    public void startGame()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+        deathMenu.SetActive(false);
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void NextLevel()

@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DeadZone : MonoBehaviour {
-
+public class DeadZone : MonoBehaviour
+{
+    [SerializeField] private GameObject deathMenu;
+    
     private void OnTriggerEnter(Collider other) {
         if (other.CompareTag("Player")) {
-            SceneManager.LoadScene(PlayerPrefs.GetInt("MaxLevelComplite"));
+            deathMenu.SetActive(true);
+            Time.timeScale = 0f;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
         }
     }
 }
