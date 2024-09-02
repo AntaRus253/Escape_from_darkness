@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 3501904743229404678}
   - component: {fileID: 6653023311760587051}
   m_Layer: 10
-  m_Name: crash platform
+  m_Name: BreakablePlatform
   m_TagString: DestructiblePlatform
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -49,8 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
-  additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  additionalDelayAfterSound: 2.8
+  destructionSound1: {fileID: 8300000, guid: 5b124050d9131ea479170205258da233, type: 3}
+  destructionSound2: {fileID: 8300000, guid: 6293cf15832eeb648a53851d4fcf505a, type: 3}
 --- !u!33 &5258188067943621492
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -133,7 +134,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -142,7 +143,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 2.3367767
+  MinDistance: 2.6
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0

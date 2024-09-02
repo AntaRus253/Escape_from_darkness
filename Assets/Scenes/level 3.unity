@@ -335,7 +335,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -430,7 +430,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -464,6 +464,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 639159460}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 639159461}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -785,6 +789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &65666799 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
@@ -825,6 +832,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &65666805
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2191,12 +2201,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209489921}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &219372568 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7939835513076388640, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
-    type: 3}
-  m_PrefabInstance: {fileID: 577338592}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &228223243 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7082984432267195108, guid: f0a42bcf5d3cea445941fe7b41e149ec,
@@ -2243,6 +2247,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &235451754
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2378,6 +2385,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &246866936
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246866933}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &249031429
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2515,6 +2546,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &249589030
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2726,7 +2760,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -2821,7 +2855,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -2855,6 +2889,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 246866935}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 246866936}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -3011,6 +3049,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &260412604
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3131,6 +3172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &281063048
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4163,6 +4207,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &360014416
 GameObject:
   m_ObjectHideFlags: 0
@@ -5429,6 +5476,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &436116542 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 95b04e2b0d0d7384a981318eeb7e7aa8,
@@ -5947,6 +5997,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &480436035
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6004,6 +6057,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &484919641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6230,6 +6286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &492461136
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6789,6 +6848,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2353559567206749840, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
+        type: 3}
+      propertyPath: targetTransform
+      value: 
+      objectReference: {fileID: 1321161744}
     - target: {fileID: 6944596240793743061, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
         type: 3}
       propertyPath: m_Name
@@ -6849,6 +6913,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78216e5167dac394fb4cb4cd7dc3d36d, type: 3}
+--- !u!20 &577338593 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 8575760558984674303, guid: 78216e5167dac394fb4cb4cd7dc3d36d,
+    type: 3}
+  m_PrefabInstance: {fileID: 577338592}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &578313286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7262,6 +7332,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &616222985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7525,6 +7598,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &639159461
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 639159458}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &640663870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8434,6 +8531,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &726546573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726546570}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &745927836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9220,6 +9341,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &818091391
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 818091389}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -9822,6 +9967,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &903352077 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e0399ba23af43cd40b471fcbb3dfa794,
@@ -9983,6 +10131,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &924399245 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38bc4811a47814d4083f60fc895d9955,
@@ -10754,6 +10905,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &997212530
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 997212527}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &998312977
 GameObject:
   m_ObjectHideFlags: 0
@@ -10934,6 +11109,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &1009424164 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1644298143902261743, guid: bc3d485dff454154a9779e799a74645e,
@@ -11407,6 +11585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1054582803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8556469913548998812, guid: bc3d485dff454154a9779e799a74645e,
@@ -11660,6 +11841,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &1076344638 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b20235aa062f6624e83109c44ae778ca,
@@ -13834,7 +14018,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -13929,7 +14113,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -13963,6 +14147,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1218460378}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1218460379}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -14090,6 +14278,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
+--- !u!65 &1218460379
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1218460376}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1226962326
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14212,6 +14424,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!65 &1230965408
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14420,6 +14635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1264729403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15152,14 +15370,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1321161741}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95b04e2b0d0d7384a981318eeb7e7aa8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1321161746}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 95b04e2b0d0d7384a981318eeb7e7aa8,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1321161745}
   m_SourcePrefab: {fileID: 100100000, guid: 95b04e2b0d0d7384a981318eeb7e7aa8, type: 3}
 --- !u!1 &1321161740 stripped
 GameObject:
@@ -15201,6 +15411,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!114 &1321161743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15221,120 +15434,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1321161739}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1321161745
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321161740}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bb83aa7633f823841bf35866274c263c, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1321161746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321161740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d31e765f8047fe4b88f468b77b73979, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTransform: {fileID: 219372568}
-  audioSource: {fileID: 1321161745}
-  maxDistance: 10
-  minDistance: 1
-  minVolume: 0.1
-  maxVolume: 1
 --- !u!4 &1329089581 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b20235aa062f6624e83109c44ae778ca,
@@ -15381,6 +15480,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &1337131974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16331,6 +16433,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1422104828
 GameObject:
   m_ObjectHideFlags: 0
@@ -16573,6 +16678,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1428049300
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16784,7 +16892,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -16879,7 +16987,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -16913,6 +17021,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 726546572}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 726546573}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -17775,6 +17887,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1496211989
 GameObject:
   m_ObjectHideFlags: 0
@@ -18050,6 +18165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &1538570622 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1644298143902261743, guid: bc3d485dff454154a9779e799a74645e,
@@ -18377,6 +18495,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1572014769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18514,6 +18635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1576344703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19250,7 +19374,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -19345,7 +19469,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -19379,6 +19503,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 818091390}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 818091391}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -19438,6 +19566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1650333999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19575,6 +19706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1670978383
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19712,6 +19846,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1001 &1683004364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -20324,6 +20461,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1787094774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b20235aa062f6624e83109c44ae778ca,
@@ -20628,6 +20768,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1832908480 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: b20235aa062f6624e83109c44ae778ca,
@@ -20775,6 +20918,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &1848332116
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20871,6 +21017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!114 &1902274216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21369,6 +21518,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1937211785
 GameObject:
   m_ObjectHideFlags: 0
@@ -21417,6 +21569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!65 &1937211788
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21625,6 +21780,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &1965482893
 GameObject:
   m_ObjectHideFlags: 0
@@ -21673,6 +21831,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 0}
+  mainCamera: {fileID: 0}
+  delayBeforeLoad: 6
 --- !u!65 &1965482896
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21955,7 +22116,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1341056751160186723, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
@@ -22050,7 +22211,7 @@ PrefabInstance:
     - target: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       propertyPath: m_Layer
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
@@ -22084,6 +22245,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 997212529}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 34d0974fadb4b1144963ec2579a0d8d0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 997212530}
     - targetCorrespondingSourceObject: {fileID: 8513859187771203891, guid: 34d0974fadb4b1144963ec2579a0d8d0,
         type: 3}
       insertIndex: 1
@@ -22222,6 +22387,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!1 &2003248004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 38bc4811a47814d4083f60fc895d9955,
@@ -22630,6 +22798,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
+  mainCamera: {fileID: 577338593}
+  delayBeforeLoad: 6
 --- !u!4 &2100073363 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b20235aa062f6624e83109c44ae778ca,

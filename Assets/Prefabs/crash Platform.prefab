@@ -49,8 +49,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   destructionDelay: 2.1
-  additionalDelayAfterSound: 5
-  destructionSound: {fileID: 8300000, guid: 6293cf15832eeb648a53851d4fcf505a, type: 3}
+  additionalDelayAfterSound: 2.8
+  destructionSound1: {fileID: 0}
+  destructionSound2: {fileID: 0}
 --- !u!33 &1389013157357883358
 MeshFilter:
   m_ObjectHideFlags: 0
