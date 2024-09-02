@@ -2349,7 +2349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
   mainCamera: {fileID: 0}
   delayBeforeLoad: 2
 --- !u!4 &593440545 stripped
@@ -10443,7 +10443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: 1
-  deathSound: {fileID: 0}
+  deathSound: {fileID: 8300000, guid: 675239c6777116241abab4ed2311d783, type: 3}
   mainCamera: {fileID: 0}
   delayBeforeLoad: 2
 --- !u!4 &1967867161 stripped
